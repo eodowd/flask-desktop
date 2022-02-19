@@ -46,8 +46,8 @@ class WebUI(object):
         #change_setting(settings.DeveloperExtrasEnabled, True)
         #change_setting(settings.OfflineStorageDatabaseEnabled, True)
         #change_setting(settings.OfflineWebApplicationCacheEnabled, True)
-
-        self.view.showMaximized()
+        self.view.setFixedSize(600,400)
+        self.view.show()
 
         self.app.exec_()
 
